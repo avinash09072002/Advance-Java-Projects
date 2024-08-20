@@ -1,0 +1,15 @@
+INDEX VERSION 1.134
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2123277138.index
+\Mini\src\main\java
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2749766352.index
+\SubMini\src\main\java
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1063332548.index
+\jspResponse\src\main\java
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\407746153.index
+\MiniProject\src\main\java
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1577410823.index
+\webpractice\src\main\java
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2700441778.index
+\webpractice\src\main\java
+F:\Eclips\AdvJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\590426083.index
+\Mini\src\main\java

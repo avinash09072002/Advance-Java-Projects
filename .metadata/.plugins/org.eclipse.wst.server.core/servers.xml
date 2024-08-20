@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.1 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.1 Server at localhost" name="Tomcat v10.1 Server at localhost" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="11">
+    <list key="modules" value0="App_Servlet1::org.eclipse.jst.jee.server:App_Servlet1::jst.web::5.0" value1="App_Servlet2::org.eclipse.jst.jee.server:App_Servlet2::jst.web::5.0" value2="App_Servlet3Pract::org.eclipse.jst.jee.server:App_Servlet3Pract::jst.web::5.0" value3="App_ServletRequestDispatcher::org.eclipse.jst.jee.server:App_ServletRequestDispatcher::jst.web::5.0" value4="jspResponse::org.eclipse.jst.jee.server:jspResponse::jst.web::5.0" value5="MiniProject::org.eclipse.jst.jee.server:MiniProject::jst.web::5.0" value6="Mini::org.eclipse.jst.jee.server:Mini::jst.web::5.0" value7="SubMini::org.eclipse.jst.jee.server:SubMini::jst.web::5.0" value8="webpractice::org.eclipse.jst.jee.server:webpractice::jst.web::5.0"/>
+  </server>
+</servers>

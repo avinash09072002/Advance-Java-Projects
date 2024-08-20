@@ -1,0 +1,59 @@
+
+Jun 15, 2024 18:28:22.73 NEW SESSION
+Jun 15, 2024 18:28:22.74 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 15, 2024 18:31:38.10 [2684:5516:0615/183138.103:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+Jun 15, 2024 18:38:19.07 [2684:5516:0615/183819.079:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Jun 22, 2024 13:14:58.41 NEW SESSION
+Jun 22, 2024 13:14:58.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 22, 2024 13:48:09.65 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 22, 2024 13:51:17.98 [1916:10228:0622/135117.989:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Jun 24, 2024 19:13:15.26 NEW SESSION
+Jun 24, 2024 19:13:15.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 24, 2024 19:32:13.34 [7980:15216:0624/193213.348:ERROR:device_event_log_impl.cc(196)] [19:32:13.348] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 24, 2024 19:32:13.37 [7980:15216:0624/193213.375:ERROR:device_event_log_impl.cc(196)] [19:32:13.375] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jun 24, 2024 19:56:12.61 [7980:15216:0624/195612.616:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+Jun 24, 2024 21:14:01.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 24, 2024 21:31:37.02 [6804:10376:0624/213137.029:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Jun 25, 2024 11:58:48.08 NEW SESSION
+Jun 25, 2024 11:58:48.09 [21008:10308:0625/115848.086:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 25, 2024 11:58:48.52 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 25, 2024 11:59:14.43 [21008:10308:0625/115914.431:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 25, 2024 11:59:18.43 [21008:19312:0625/115918.430:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-105).
+Jun 25, 2024 11:59:19.17 [21008:19312:0625/115919.171:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-105).
+Jun 25, 2024 12:00:13.13 [21008:10308:0625/120013.130:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 25, 2024 12:02:08.27 [21008:10308:0625/120208.277:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 25, 2024 12:05:51.75 [21008:10308:0625/120551.753:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 25, 2024 12:12:30.44 [21008:10308:0625/121230.439:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+Jun 26, 2024 12:04:03.63 NEW SESSION
+Jun 26, 2024 12:04:03.64 [12744:10320:0626/120403.631:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:04:04.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 26, 2024 12:04:30.34 [12744:10320:0626/120430.341:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:04:35.10 [12744:12944:0626/120435.108:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-105).
+Jun 26, 2024 12:04:35.20 [12744:12944:0626/120435.201:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-105).
+Jun 26, 2024 12:05:16.13 [12744:10320:0626/120516.137:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:07:08.11 [12744:10320:0626/120708.110:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:10:15.94 [12744:10320:0626/121015.944:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:10:42.85 [10052:1496:0626/121042.858:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:10:43.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 26, 2024 12:11:09.70 [10052:1496:0626/121109.703:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:11:57.68 [10052:1496:0626/121157.687:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:13:31.39 [10052:1496:0626/121331.397:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:14:52.43 [16884:19000:0626/121452.437:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:14:52.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 26, 2024 12:15:19.09 [16884:19000:0626/121519.096:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:16:13.71 [16884:19000:0626/121613.714:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Jun 26, 2024 12:22:07.08 [16884:2148:0626/122207.086:ERROR:device_event_log_impl.cc(196)] [12:22:07.098] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 26, 2024 12:22:07.10 [16884:2148:0626/122207.101:ERROR:device_event_log_impl.cc(196)] [12:22:07.109] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jun 26, 2024 13:06:34.69 [16884:2148:0626/130634.692:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Aug 07, 2024 19:19:13.59 NEW SESSION
+Aug 07, 2024 19:19:13.60 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 07, 2024 19:20:57.87 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+
+Aug 08, 2024 19:58:11.46 NEW SESSION
+Aug 08, 2024 19:58:11.47 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 08, 2024 19:58:11.50 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).

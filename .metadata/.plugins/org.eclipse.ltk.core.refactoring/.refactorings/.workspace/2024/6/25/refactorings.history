@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Servlet_5_conncetDB&apos; to &apos;App_Servlet5_conncetDB&apos;" description="Rename resource &apos;Servlet_5_conncetDB&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Servlet_5_conncetDB" name="App_Servlet5_conncetDB" stamp="1718710931739" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;App_Servlet5_conncetDB&apos; to &apos;MiniProject&apos;" description="Rename resource &apos;App_Servlet5_conncetDB&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/App_Servlet5_conncetDB" name="MiniProject" stamp="1718956191770" updateReferences="true"/>
+</session>

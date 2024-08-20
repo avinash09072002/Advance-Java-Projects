@@ -1,0 +1,30 @@
+package test;
+import java.sql.*;
+
+public class JDBCcon {
+
+    public static void main(String[] args) {
+        try {
+            // Loading the driver
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            // Creating connection
+            Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","avinash");
+
+
+            // Statement
+            Statement stm = con.createStatement();
+            // Executing query
+            ResultSet rs = stm.executeQuery("SELECT * FROM customer62");
+            System.out.println("The customer details:");
+
+            while (rs.next()) {
+                System.out.println(rs.getLong(1) + " " + rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4) );
+            }
+            con.close();
+            
+
+        } catch (Exception e) {
+            System.out.println(e.toString());
+        }
+    }
+}

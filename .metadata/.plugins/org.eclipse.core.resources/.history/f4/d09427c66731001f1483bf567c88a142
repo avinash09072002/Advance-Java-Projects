@@ -1,0 +1,28 @@
+package test;
+import java.sql.*;
+import java.util.Scanner;
+
+public class PreparedStatement {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		try(sc;){
+			try {
+				System.out.println("Enter the empno");
+				int empno=sc.nextInt();
+				Class.forName("oracle.jdbc.driver.OracleDriver");
+                
+				Connection con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","avinash");
+          
+				  PreparedStatement ps = con.prepareStatement
+						  ("select * from emp1 where empno=?");
+				  
+				  
+				  }catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+}

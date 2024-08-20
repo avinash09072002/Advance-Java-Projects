@@ -1,0 +1,62 @@
+package test;
+import java.util.*;
+import java.sql.*;
+
+public class dbconPract {
+public static void main(String[] args) {
+ Scanner s = new Scanner(System.in);
+ 
+   try(s;){
+	   try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","system","avinash");
+			
+			PreparedStatement pstm2=con.prepareStatement("select * from emp1");
+			
+			PreparedStatement pstm1=con.prepareStatement("select * from emp1 where empno=?");
+			
+			while(true) {
+				System.out.println("choices===");
+				System.out.println("1.dispalay all the reocrds "+"\n 2.according to empno");
+				
+			    switch (Integer.parseInt(s.nextLine())){
+			    
+			    case 1:
+			    	  ResultSet rs=pstm2.executeQuery();
+			    	  while(rs.next()) {
+			    		  System.out.println("name is "+rs.getString(2));
+			    	  }
+			    	break;
+			    	
+			    case 2:
+			    	try {
+			    	  System.out.println("Enter the emp no");
+			    	  int no=s.nextInt();
+			    	  pstm1.setInt(1,no);
+			    	  
+			    	  ResultSet rs2= pstm1.executeQuery();
+			    	  if(rs2.next()) {
+			    		  System.out.println("name is "+rs2.getString(2));
+			    	  }
+			    	}catch(NumberFormatException n) {
+			    		System.out.println(n.toString());
+			    	}
+			    	  break;
+			    	
+				
+				
+				}
+			}
+			
+			
+		   
+	   }catch(Exception e) {
+		   System.out.println(e.toString());
+	   }
+	   
+   }
+ 
+		
+  }
+}
